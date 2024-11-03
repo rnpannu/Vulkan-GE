@@ -1,0 +1,16 @@
+Development learning notes
+
+ctrl+shift+b = build all
+
+f5 = launch debugger (up to breakpoint if called after placing breakpoint, stops build process here)
+
+f11 = step into code at breakpoint
+	f11 steps into code line by line, and you can hover over variables to see their value at that time in execution.
+
+f10 = step over lines in debugging
+
+
+TODO:
+
+Make these notes into an actual better structured document?
+	- Might be nice to have learning journey documentation for interview questions
