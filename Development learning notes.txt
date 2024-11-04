@@ -14,3 +14,17 @@ TODO:
 
 Make these notes into an actual better structured document?
 	- Might be nice to have learning journey documentation for interview questions
+
+
+
+03/11/2024
+
+Want to learn more about memory allocation as described in episode 3 at 16 minutes. Allocation with memset on the stack is
+better than dynamic allocation on the (heap?) with malloc? This will generate and 0 fill the array at compile time instead
+of runtime.
+
+SOLVED - Error on logger.h and logger.c about log_output KAPI function - .vscode defines had an error
+
+SOLVED - Error on # sign in expr in asserts.h - Structure of #define macros
+
+a function declared 'dllimport' may not be definedC/C++(904)
