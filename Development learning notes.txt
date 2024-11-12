@@ -18,7 +18,9 @@ Make these notes into an actual better structured document?
 
 
 03/11/2024
+Learned about the importance of logging and assertions for debugging and set up a basic handler for these. 
 
+Small Notes
 Want to learn more about memory allocation as described in episode 3 at 16 minutes. Allocation with memset on the stack is
 better than dynamic allocation on the (heap?) with malloc? This will generate and 0 fill the array at compile time instead
 of runtime.
@@ -28,3 +30,5 @@ SOLVED - Error on logger.h and logger.c about log_output KAPI function - .vscode
 SOLVED - Error on # sign in expr in asserts.h - Structure of #define macros
 
 a function declared 'dllimport' may not be definedC/C++(904)
+
+
