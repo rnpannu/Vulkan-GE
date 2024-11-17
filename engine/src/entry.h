@@ -3,11 +3,15 @@
 #include "core/application.h"
 #include "core/logger.h"
 #include "game_types.h"
+#include "core/kmemory.h"
 
 extern b8 create_game(game* out_game);
 
 // Main entry of application
 int main(void){
+
+    initialize_memory();
+
     game game_inst;
     if(!create_game(&game_inst)){
         KFATAL("Could not create game!");
@@ -30,6 +34,6 @@ int main(void){
         return 2;
     }
 
-
+    shutdown_memory();
     return 0;
 }

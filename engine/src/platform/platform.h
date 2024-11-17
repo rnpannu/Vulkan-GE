@@ -23,8 +23,8 @@ b8 platform_pump_messages(platform_state* plat_state);
 
 // Memory
 // TODO: Revise temprary exposure of platform code
-KAPI void* platform_allocate(u64 size, b8 aligned); //malloc equivalent for platform
-KAPI void platform_free(void* block, b8 aligned); //free equivalent for platform
+void* platform_allocate(u64 size, b8 aligned); //malloc equivalent for platform
+void platform_free(void* block, b8 aligned); //free equivalent for platform
 void* platform_zero_memory(void* block, u64 size); //zero out memory
 void* platform_copy_memory(void* dest, const void* source, u64 size);
 void* platform_set_memory(void* dest, i32 value, u64 size);
