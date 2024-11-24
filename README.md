@@ -1,3 +1,3 @@
-# Logging and Assertions
+Game Engine written in C, utilizing the Vulkan graphics API & SDL2.
 
-Constructed a basic logger with log levels for fatal, error, warning, debug, and trace and defined basic assertions and their debug messages.
+Implementation of basic internal memory library coinciding with logger tags.
